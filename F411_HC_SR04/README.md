@@ -29,7 +29,7 @@
 #### Serial 화면 및 오실로스코프로 측정한 결과
 | ** Putty 결과** | ** Oscilloscope 결과** |
 | :---: | :---: |
-| ![putty](./../img/result_value_01.jpg) | ![Oscilloscope](./../img/oscilloscope_result_ch1_01.jpg) |
+| ![putty](./../img/ultrasonic_result_01.jpg) | ![Oscilloscope](./../img/oscilloscope_result_ch1_01.jpg) |
 
 #### **거리 비교 측정한 결과**
 | **센서 가까이 설정** | **센서 멀리 설정** |

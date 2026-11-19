@@ -38,7 +38,8 @@
 
 ---
 #### **초록색 부분은 온/습도 연결 핀, 빨간색 부분은 초음파 거리측정 연결 핀 설정부분**
-<img src="./../img/./../img/Nucleo_STM32F411_Board03.png"> <br>
+
+<img src="./../img/Nucleo_STM32F411_Board03.png"> <br>
 
 ## 3. 변경 파일 목록
 

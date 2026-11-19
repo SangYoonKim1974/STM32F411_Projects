@@ -218,7 +218,8 @@ void Ultrasonic_Task(void)
                 trigEndCnt = US_GetCounter();
                 s_usTrigEndCnt = trigEndCnt;
 
-                g_trace_trig_ticks = 0U;
+                g_trace_trig_ticks = (uint16_t)(trigEndCnt - trigStartCnt);
+         //       g_trace_trig_ticks = 0U;
                 g_trace_trig_edge = 0U;
                 g_trace_trig_state = 0U;
                 g_trace_trig_edge_count++;
@@ -238,13 +239,13 @@ void Ultrasonic_Task(void)
                 }
                 s_usEchoDone = 0U;
                 s_usState = US_STATE_IDLE;
-                g_trace_trig_ticks = 0U;
+//              g_trace_trig_ticks = 0U;
             } else if ((now - s_usEchoStartTick) >= US_ECHO_TIMEOUT_MS) {
                 s_usErrorCount++;
                 s_usState = US_STATE_IDLE;
                 g_trace_echo_edge = 0U;
                 g_trace_echo_state = 0U;
-                g_trace_trig_ticks = 0U;
+//              g_trace_trig_ticks = 0U;
             }
             break;
 

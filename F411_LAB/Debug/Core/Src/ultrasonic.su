@@ -1,0 +1,11 @@
+../Core/Src/ultrasonic.c:70:17:US_GetCounter	4	static
+../Core/Src/ultrasonic.c:75:6:Ultrasonic_Init	8	static
+../Core/Src/ultrasonic.c:117:6:Ultrasonic_Task	16	static
+../Core/Src/ultrasonic.c:201:9:Ultrasonic_GetResult	16	static
+../Core/Src/ultrasonic.c:213:9:Ultrasonic_IsIdle	4	static
+../Core/Src/ultrasonic.c:218:6:Ultrasonic_SetSoundSpeedX10	16	static
+../Core/Src/ultrasonic.c:226:10:Ultrasonic_GetLastEchoTicks	4	static
+../Core/Src/ultrasonic.c:231:6:Ultrasonic_OnEchoEdge	16	static
+../Core/Src/ultrasonic.c:278:13:US_StoreSample	32	static
+../Core/Src/ultrasonic.c:300:17:US_Median	32	static
+../Core/Src/ultrasonic.c:327:13:US_Publish	16	static

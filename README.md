@@ -79,7 +79,7 @@
 
   
 ## 3. F411_LAB
-- [1. LAB](./docs/F411_TASK_LAB.md)
+- [1. LAB](./F411_LAB/README.md)
 
 
 ### C언어 정리

@@ -1,9 +1,5 @@
 # STM32F411_Project
 
-# TASK_LAB
-- [1. Distance sensor](./README.md)
-- [2. temp/humi sensor](./README.md)
-
 ## Hardware
 
 ---
@@ -541,9 +537,6 @@ S,3441
 D,11234,510,1,0
 C,2968
 ```
-
-<img src="./../img/temp_humi_trig_echo_result.jpg"> <br>
-
 
 #### 초음파 거리 측정 과 온습도 측정을 같이 적용한 데이터 트레이스 타임라인 그래프
 

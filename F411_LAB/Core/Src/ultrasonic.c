@@ -24,9 +24,6 @@ volatile uint16_t g_trace_trig_to_echo_ticks;
 #define US_ECHO_TIMEOUT_MS 35U
 #define US_TRIG_PULSE_US 10U
 #define US_TIMER_TICKS_PER_US 1U
-/* TRIG 이후 ECHO 상승까지 허용할 시간 범위 (센서 특성에 맞게 조정 가능) */
-#define US_TRIG_TO_ECHO_MIN_TICKS    (100U * US_TIMER_TICKS_PER_US)   /* 최소 100us 이후 응답 인정 */
-#define US_TRIG_TO_ECHO_MAX_TICKS    (2000U * US_TIMER_TICKS_PER_US)  /* 최대 2000us(2ms) 이내 응답 필수 */
 
 #define US_MIN_ECHO_TICKS (100U * US_TIMER_TICKS_PER_US)
 #define US_MAX_ECHO_TICKS (30000U * US_TIMER_TICKS_PER_US)
@@ -145,6 +142,7 @@ void Ultrasonic_Task(void)
         HAL_GPIO_WritePin(TRIG_GPIO_Port, TRIG_Pin, GPIO_PIN_SET);
         g_trace_trig_edge = 1U;
         g_trace_trig_state = 1U;
+        g_trace_trig_ticks = 1U;
         g_trace_trig_edge_count++;
 
         while ((uint16_t)(US_GetCounter() - trigStartCnt) < US_TRIG_PULSE_US)
@@ -156,7 +154,8 @@ void Ultrasonic_Task(void)
         trigEndCnt = US_GetCounter();
         s_trigEndCnt = trigEndCnt; /* OnEchoEdge에서 사용할 종료 카운터 저장 */
 
-        g_trace_trig_ticks = (uint16_t)(trigEndCnt - trigStartCnt);
+//        g_trace_trig_ticks = (uint16_t)(trigEndCnt - trigStartCnt);
+        g_trace_trig_ticks = 0U;
         g_trace_trig_edge = 0U;
         g_trace_trig_state = 0U;
         g_trace_trig_edge_count++;
@@ -180,13 +179,23 @@ void Ultrasonic_Task(void)
         }
         s_echoDone = 0U;
         s_state = US_STATE_IDLE;
+        g_trace_trig_ticks = 0U; /* <-- 이 줄을 추가하면 ECHO 완료 시 0으로 떨어짐 */
       }
+//      else if ((s_echoRising == 0U) &&
+//               ((uint16_t)(US_GetCounter() - s_trigEndCnt) > US_TRIG_TO_ECHO_MAX_TICKS)) {
+//          s_errorCount++;
+//          s_state = US_STATE_IDLE;
+//          g_trace_echo_edge = 0U;
+//          g_trace_echo_state = 0U;
+//          g_trace_trig_ticks = 0U; /* <-- 타임아웃 시에도 0으로 복귀 */
+//      }
       else if ((now - s_echoStartTick) >= US_ECHO_TIMEOUT_MS)
       {
         s_errorCount++;
         s_state = US_STATE_IDLE;
         g_trace_echo_edge = 0U;
         g_trace_echo_state = 0U;
+        g_trace_trig_ticks = 0U; /* <-- 타임아웃 시에도 0으로 복귀 */
       }
       break;
 

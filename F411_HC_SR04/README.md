@@ -76,6 +76,30 @@ HC-SR04 ECHO ---- 1 kΩ ----+---- PA0
 
 ## Hardware
 
+### **STM32CubeMx board selector**
+<img src="./../img/board_selector_01.png"> <br>
+
+### **STM32CubeMx NucleoF411RE**
+<img src="./../img/nucleo_F411RE_select_01.png"> <br>
+
+### **STM32CubeMx Board Project**
+<img src="./../img/board_project_option_001.png"> <br>
+
+### **STM32CubeMx Pinout & Configuration**
+<img src="./../img/pinout_configuration_01.png"> <br>
+
+### **STM32CubeMx RCC 설정**
+<img src="./../img/rcc_setting_01.png"> <br>
+
+### **STM32CubeMx RCC Disable 설정**
+<img src="./../img/rcc_disable_setting_01.png"> <br>
+
+### **STM32CubeMx PA1 Parameter 설정**
+<img src="./../img/pin_PA1_setting_01.png"> <br>
+
+### **STM32CubeMx PA1 PA0 ECHO TRIG 설정**
+<img src="./../img/rcc_echo_trig_setting_01.png"> <br>
+
 ### **STM32CubeMx GPIO 설정 전**
 
 <img src="./../img/GPIO_setting_before_01.jpg"> <br>

@@ -37,7 +37,7 @@
 | 시간 기준 | TIM1 | 1 MHz 카운터 | 초음파·DHT 공용 |
 
 ---
-![](./../img/Fig.NUCLEO-F103RB.png)
+![](./../img/Nucleo_STM32F411_Board03.png.png)
 
 ## 3. 변경 파일 목록
 

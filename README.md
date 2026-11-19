@@ -30,7 +30,7 @@
 - [1. F411_HC_SR04](./docs/F411_HC_SR04.md)
   
 ## 3. F411_LAB
-- [1. C language](./docs/F411_TASK_LAB.md)
+- [1. LAB](./docs/F411_TASK_LAB.md)
 
 ### C언어 정리
 - [1. C language](./docs/F411_C_language.md)

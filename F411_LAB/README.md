@@ -1,6 +1,6 @@
 # STM32F411_Project
 
-## Hardware
+## DHT_Hardware
 
 ---
 
@@ -47,7 +47,7 @@
 | `Debug/Core/Src/subdir.mk` | `dht.c`를 빌드 소스/오브젝트/의존성/clean에 추가 |
 | `Debug/objects.list` | 링커 입력에 `./Core/Src/dht.o` 추가 |
 
-## Software
+## DHT_Software
 
 ### dht.h
 
@@ -546,7 +546,7 @@ C,2968
 
 ## 최종 작업 정리 — 초음파 + 온습도 + FreeRTOS
 
-### HardWare
+### FreeRTOS_HardWare
 ---
 
 #### 1. 전체 작업 흐름
@@ -631,7 +631,7 @@ speed_x10 = 3313 + (606 × T_x10) / 1000 + (12 × RH_x10) / 1000
 - `T_x10` = 온도 ×10 (0.1 °C), `RH_x10` = 습도 ×10 (0.1 %RH)
 - 2500~4000 범위로 클램프, `dht.valid == 1`일 때만 `Ultrasonic_SetSoundSpeedX10()` 호출
 
-### SoftWare
+### FreeRTOS_SoftWare
 ---
 ```c
 /* USER CODE END Header */

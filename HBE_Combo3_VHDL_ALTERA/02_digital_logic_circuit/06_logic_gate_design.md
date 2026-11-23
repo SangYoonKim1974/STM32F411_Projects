@@ -20,7 +20,7 @@ AND 연산은 1(High)과 0(Low) 사이의 일반 곱셈과 같이 수행된다.
 
 <br><br>
 
-<p align="center"> <img src="../verilog-media/image55.png"> </p>
+<p align="center"> <img src="./../../img/logic_circuit_image55.png"> </p>
 
 <br><br>
 
@@ -39,7 +39,7 @@ AND 연산은 1(High)과 0(Low) 사이의 일반 곱셈과 같이 수행된다.
 
 <br><br>
 
-<p align="center"> <img src="../verilog-media/image56.png"> </p>
+<p align="center"> <img src="./../../img/logic_circuit_image56.png"> </p>
 
 <br><br>
 
@@ -139,7 +139,7 @@ endmodule
 
 <br><br>
 
-<p align="center"> <img src="../verilog-media/image57.png"> </p>
+<p align="center"> <img src="./../../img/logic_circuit_image57.png"> </p>
 
 <br><br>
 
@@ -167,7 +167,7 @@ OR 연산은 입력 중 어느 하나라도 1이 되면 결과가 1이 되는 �
 
 <br><br>
 
-<p align="center"> <img src="../verilog-media/image58.png"> </p>
+<p align="center"> <img src="./../../img/logic_circuit_image58.png"> </p>
 
 <br><br>
 
@@ -186,7 +186,7 @@ OR 연산은 입력 중 어느 하나라도 1이 되면 결과가 1이 되는 �
 
 <br><br>
 
-<p align="center"> <img src="../verilog-media/image59.png"> </p>
+<p align="center"> <img src="./../../img/logic_circuit_image59.png"> </p>
 
 <br><br>
 
@@ -296,7 +296,7 @@ endmodule
 
 <br><br>
 
-<p align="center"> <img src="../verilog-media/image60.png"> </p>
+<p align="center"> <img src="./../../img/logic_circuit_image60.png"> </p>
 
 <br><br>
 
@@ -325,7 +325,7 @@ NOT 연산은 입력 논리 값의 반대가 출력되는 연산이다. 출력 �
 
 <br><br>
 
-<p align="center"> <img src="../verilog-media/image61.png"> </p>
+<p align="center"> <img src="./../../img/logic_circuit_image61.png"> </p>
 
 <br><br>
 
@@ -342,7 +342,7 @@ NOT 연산은 입력 논리 값의 반대가 출력되는 연산이다. 출력 �
 
 <br><br>
 
-<p align="center"> <img src="../verilog-media/image62.png"> </p>
+<p align="center"> <img src="./../../img/logic_circuit_image62.png"> </p>
 
 <br><br>
 
@@ -455,7 +455,7 @@ endmodule
 
 <br><br>
 
-<p align="center"> <img src="../verilog-media/image63.png"> </p>
+<p align="center"> <img src="./../../img/logic_circuit_image63.png"> </p>
 
 <br><br>
 
@@ -484,7 +484,7 @@ NAND와 NOR 연산은 앞에서 설명한 OR, AND와 NOT 연산을 조합한 것
 
 <br><br>
 
-<p align="center"> <img src="../verilog-media/image64.png"> </p>
+<p align="center"> <img src="./../../img/logic_circuit_image64.png"> </p>
 
 <br><br>
 
@@ -503,7 +503,7 @@ NAND 게이트는 AND 게이트와 모양이 비슷하고, 출력에 원이 붙�
 
 <br><br>
 
-<p align="center"> <img src="../verilog-media/image65.png"> </p>
+<p align="center"> <img src="./../../img/logic_circuit_image65.png"> </p>
 
 <br><br>
 
@@ -511,7 +511,7 @@ NAND 게이트는 AND 게이트와 모양이 비슷하고, 출력에 원이 붙�
 
 <br><br>
 
-<p align="center"> <img src="../verilog-media/image66.png"> </p>
+<p align="center"> <img src="./../../img/logic_circuit_image66.png"> </p>
 
 <br><br>
 
@@ -621,7 +621,7 @@ endmodule
 
 <br><br>
 
-<p align="center"> <img src="../verilog-media/image67.png"> </p>
+<p align="center"> <img src="./../../img/logic_circuit_image67.png"> </p>
 
 <br><br>
 
@@ -648,7 +648,7 @@ HBE-Combo III 장비에 다운로딩 하고, 위에서 설명한 로직에 대�
 
 <br><br>
 
-<p align="center"> <img src="../verilog-media/image68.png"> </p>
+<p align="center"> <img src="./../../img/logic_circuit_image68.png"> </p>
 
 <br><br>
 
@@ -667,7 +667,7 @@ NOR 게이트는 OR 게이트와 모양이 비슷하고, 출력에 원이 붙어
 
 <br><br>
 
-<p align="center"> <img src="../verilog-media/image69.png"> </p>
+<p align="center"> <img src="./../../img/logic_circuit_image69.png"> </p>
 
 <br><br>
 
@@ -675,7 +675,7 @@ NOR 게이트는 OR 게이트와 모양이 비슷하고, 출력에 원이 붙어
 
 <br><br>
 
-<p align="center"> <img src="../verilog-media/image70.png"> </p>
+<p align="center"> <img src="./../../img/logic_circuit_image70.png"> </p>
 
 <br><br>
 
@@ -785,7 +785,7 @@ endmodule
 
 <br><br>
 
-<p align="center"> <img src="../verilog-media/image71.png"> </p>
+<p align="center"> <img src="./../../img/logic_circuit_image71.png"> </p>
 
 <br><br>
 
@@ -816,7 +816,7 @@ XOR는 배타적 OR라고도 하며, 두 입력이 서로 다른 값을 가질 �
 
 <br><br>
 
-<p align="center"> <img src="../verilog-media/image72.png"> </p>
+<p align="center"> <img src="./../../img/logic_circuit_image72.png"> </p>
 
 <br><br>
 
@@ -835,7 +835,7 @@ XOR는 배타적 OR라고도 하며, 두 입력이 서로 다른 값을 가질 �
 
 <br><br>
 
-<p align="center"> <img src="../verilog-media/image74.png"> </p>
+<p align="center"> <img src="./../../img/logic_circuit_image74.png"> </p>
 
 <br><br>
 
@@ -843,7 +843,7 @@ XOR는 배타적 OR라고도 하며, 두 입력이 서로 다른 값을 가질 �
 
 <br><br>
 
-<p align="center"> <img src="../verilog-media/image75.png"> </p>
+<p align="center"> <img src="./../../img/logic_circuit_image75.png"> </p>
 
 <br><br>
 
@@ -902,7 +902,7 @@ endmodule
 
 <br><br>
 
-<p align="center"> <img src="../verilog-media/image76.png"> </p>
+<p align="center"> <img src="./../../img/logic_circuit_image76.png"> </p>
 
 <br><br>
 
@@ -932,9 +932,9 @@ XNOR는 배타적 NOR라고도 하며, XOR와 반대로 동작한다. 즉 입력
 
 <br><br>
 
-<p align="center"> <img src="../verilog-media/image77.png"> </p>
+<p align="center"> <img src="./../../img/logic_circuit_image77.png"> </p>
 
-<p align="center"> <img src="../verilog-media/image78.png"> </p>
+<p align="center"> <img src="./../../img/logic_circuit_image78.png"> </p>
 
 <br><br>
 
@@ -953,7 +953,7 @@ XNOR 게이트를 AND, OR, NOT 게이트를 이용하여 아래 그림과 같이
 
 <br><br>
 
-<p align="center"> <img src="../verilog-media/image80.png"> </p>
+<p align="center"> <img src="./../../img/logic_circuit_image80.png"> </p>
 
 <br><br>
 
@@ -961,7 +961,7 @@ XNOR 게이트를 AND, OR, NOT 게이트를 이용하여 아래 그림과 같이
 
 <br><br>
 
-<p align="center"> <img src="../verilog-media/image81.png"> </p>
+<p align="center"> <img src="./../../img/logic_circuit_image81.png"> </p>
 
 <br><br>
 
@@ -1069,7 +1069,7 @@ endmodule
 
 <br><br>
 
-<p align="center"> <img src="../verilog-media/image82.png"> </p>
+<p align="center"> <img src="./../../img/logic_circuit_image82.png"> </p>
 
 <br><br>
 

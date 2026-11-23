@@ -17,7 +17,7 @@ Library를 통해 VHDL구문의 사용 함수를 정의하고, entity를 통해 
 
 <br><br>
 
-<p align="center"> <img src="../img/Verilog.png"> </p>
+<p align="center"> <img src="../img/Verilog_HDL_Structure_basic_01.png"> </p>
 
 <br><br>
 

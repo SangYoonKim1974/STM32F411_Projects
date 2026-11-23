@@ -223,7 +223,7 @@ ASIC에서 사용하는 로직의 일부분을 테스트하는 것이 아니라,
 
 <br><br>
 
-<p align="center"> <img src="../vhdl-media/image6.png"> </p>
+<p align="center"> <img src="./../../img/FPGA_Logic_Element.png"> </p>
 
 <br><br>
 
@@ -235,7 +235,7 @@ ASIC에서 사용하는 로직의 일부분을 테스트하는 것이 아니라,
 
 <br><br>
 
-<p align="center"> <img src="../FPGA_LBA_01.png"> </p>
+<p align="center"> <img src="./../../img/FPGA_LBA_01.png"> </p>
 
 <br><br>
    
@@ -243,7 +243,7 @@ ASIC에서 사용하는 로직의 일부분을 테스트하는 것이 아니라,
 
 <br><br>
 
-<p align="center"> <img src="./../../img/image8.png"> </p>
+<p align="center"> <img src="./../../img/FPGA_Logic_Elements_01.png"> </p>
 
 <br><br>
 
@@ -259,7 +259,7 @@ Logic Element에도 플립플롭이 구성되어 있기 때문에 이 Logic Elem
 
 <br><br>
 
-<p align="center"> <img src="../vhdl-media/image9.png"> </p>
+<p align="center"> <img src="./../../img/FPGA_M4K_RAM_Block.png"> </p>
 
 <br><br>
 
@@ -273,7 +273,7 @@ Logic Element에도 플립플롭이 구성되어 있기 때문에 이 Logic Elem
 
 <br><br>
 
-<p align="center"> <img src="../vhdl-media/image10.png"> </p>
+<p align="center"> <img src="./../../img/Embedded_Multiplier_Block_01.png"> </p>
 
 <br><br>
 

@@ -400,7 +400,7 @@ Add items to the Project 창에서 아래 그림과 같이 프로젝트에 포�
 
 <br><br>
 
-<p align="center"> <img src="./../../img/ModelSim_new_project_30.png"> </p>
+<p align="center"> <img src="./../../img/ModelSim_new_project_30.jpeg"> </p>
 
 <br><br>
 
@@ -469,7 +469,7 @@ Add items to the Project 창에서 아래 그림과 같이 프로젝트에 포�
 
 <br><br>
 
-<p align="center"> <img src="./../../img/ModelSim_new_project_38.png"> </p>
+<p align="center"> <img src="./../../img/ModelSim_new_project_38.jpeg"> </p>
 
 <br><br>
 
@@ -478,7 +478,7 @@ Add items to the Project 창에서 아래 그림과 같이 프로젝트에 포�
 
 <br><br>
 
-<p align="center"> <img src="./../../img/ModelSim_new_project_39.png"> </p>
+<p align="center"> <img src="./../../img/ModelSim_new_project_39.jpeg"> </p>
 
 <br><br>
 
@@ -486,7 +486,7 @@ Add items to the Project 창에서 아래 그림과 같이 프로젝트에 포�
 
 <br><br>
 
-<p align="center"> <img src="./../../img/ModelSim_new_project_40.png"> </p>
+<p align="center"> <img src="./../../img/ModelSim_new_project_40.jpeg"> </p>
 
 <br><br>
 
@@ -520,7 +520,7 @@ Quartus II 소프트웨어에서 아래 그림과 같이 Tools > Programmer 메�
 
 <br><br>
 
-<p align="center"> <img src="./../../img/ModelSim_new_project_44.pngg"> </p>
+<p align="center"> <img src="./../../img/ModelSim_new_project_44.png"> </p>
 
 <br><br>
 

@@ -235,7 +235,7 @@ ASIC에서 사용하는 로직의 일부분을 테스트하는 것이 아니라,
 
 <br><br>
 
-<p align="center"> <img src="../vhdl-media/image7.png"> </p>
+<p align="center"> <img src="../FPGA_LBA_01.png"> </p>
 
 <br><br>
    
@@ -243,7 +243,7 @@ ASIC에서 사용하는 로직의 일부분을 테스트하는 것이 아니라,
 
 <br><br>
 
-<p align="center"> <img src="../vhdl-media/image8.png"> </p>
+<p align="center"> <img src="./../../img/image8.png"> </p>
 
 <br><br>
 

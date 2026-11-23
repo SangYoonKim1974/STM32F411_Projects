@@ -213,7 +213,7 @@ ASIC에서 사용하는 로직의 일부분을 테스트하는 것이 아니라,
 
 <br><br>
 
-<p align="center"> <img src="../vhdl-media/image5.png"> </p>
+<p align="center"> <img src="./../../img/FPGA_Architecture.png"> </p>
 
 <br><br>
 
@@ -355,9 +355,9 @@ Logic Element에도 플립플롭이 구성되어 있기 때문에 이 Logic Elem
   (초미세 공정)
 ========================================================================================
 ```
-![](../img/001-001.png)
+![](./../../img/74_series_TTL_001.png)
 
-![](../img/001-002.png)
+![](./../../img/74_series_TTL_002.png)
 
 트랜지스터 형상 및 소자 차이 상세 비교표
 시리즈	BJT 내부 소자 형상 (Schottky 유무)	트랜지스터 물리적 크기 & 공정	내부 저항 크기 스케일	핵심 차이점 요약

@@ -86,4 +86,5 @@
 - [1. C language](./docs/F411_C_language.md)
 - [2. C vs Verilog HDL vs VHDL Comparison](./docs/F411_C_Verilog_HDL_VHDL.md)
 
-
+## 4. HBE_Combo3_VHDL_ALTERA
+- [1. HBE_Combo_III](./HBE_Combo3_VHDL_ALTERA/README.md)

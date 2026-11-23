@@ -33,7 +33,7 @@
 
 <br><br>
 
-<p align="center"> <img src="./../img/TTL_001.png"> </p>
+<p align="center"> <img src="./../../img/TTL_001.png"> </p>
 
 <br><br>
 
@@ -81,7 +81,7 @@
 
 <br><br>
 
-<p align="center"> <img src="./../img/ASIC_image3.jpeg"> </p> 
+<p align="center"> <img src="./../../img/ASIC_image3.jpeg"> </p> 
 
 <br><br>
 
@@ -178,7 +178,7 @@ ASIC에서 사용하는 로직의 일부분을 테스트하는 것이 아니라,
 
 <br><br>
 
-<p align="center"> <img src="./../img/ASIC_Classification_image4.png"> </p>
+<p align="center"> <img src="./../../img/ASIC_Classification_image4.png"> </p>
 
 <br><br>
 

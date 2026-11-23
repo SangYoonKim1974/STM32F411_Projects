@@ -1,4 +1,4 @@
-# 4. GETTING STARTED
+# 4. Getting Started
 
 <br>
 
@@ -23,13 +23,14 @@
 
 RESETN의 신호가 0일 때 모든 데이터가 0으로 초기화되며, RESETN의 신호가 1일 때 시스템이 동작 한다. 카운터의 동작은 클럭의 Rising Edge일 때 동작하도록 구성되어 있다.
 
-RESETN의 신호는 HBE-COMBO III 장비의 FPGA RESET핀과 연결하고, CLK는 장비의 버튼 스위치 SW1과 연결한다. 출력 COUNT_OUT은 LED1~8에 연결하여 출력 결과가 LED를 통해서 확인할 수 있도록 구성한다.Getting Started
+RESETN의 신호는 HBE-COMBO III 장비의 FPGA RESET핀과 연결하고, CLK는 장비의 버튼 스위치 SW1과 연결한다. 출력 COUNT_OUT은 LED1~8에 연결하여 출력 결과가 LED를 통해서 확인할 수 있도록 구성한다.
 
 <br>
 
 ---
 
 <br>
+
 
 ## 4.2. Quartus II를 이용한 로직 설계 및 합성
 
@@ -45,7 +46,7 @@ Quartus II 프로그램을 이용하여 로직을 설계하기 위해서는 먼�
 
 <br><br>
 
-<p align="center"> <img src="../vhdl-media/image12.png"> </p>
+<p align="center"> <img src="./../../img/Quartus_new_project_01.png"> </p>
 
 <br><br>
 
@@ -53,18 +54,19 @@ Quartus II 프로그램을 이용하여 로직을 설계하기 위해서는 먼�
 
 <br><br>
 
-<p align="center"> <img src="../vhdl-media/image13.png"> </p>
+<p align="center"> <img src="./../../img/Quartus_new_project_02.png"> </p>
 
 <br><br>
 
+
 다음 그림과 같이 작업폴더와 프로젝트 이름을 선언한다.
-   * Working Directory : E:\ WORK \ COUNT_8BIT
+   * Working Directory : E:\ WORK \ COUNT_8BIT \ QUARTUS
    * Project Name : COUNT_8BIT
    * Top-Level Entity Name : COUNT_8BIT
 
 <br><br>
 
-<p align="center"> <img src="../vhdl-media/image14.png"> </p>
+<p align="center"> <img src="./../../img/Quartus_new_project_03.png"> </p>
 
 <br><br>
 
@@ -72,7 +74,7 @@ Quartus II 프로그램을 이용하여 로직을 설계하기 위해서는 먼�
 
 <br><br>
 
-<p align="center"> <img src="../vhdl-media/image15.png"> </p>
+<p align="center"> <img src="./../../img/Quartus_new_project_04.png"> </p>
 
 <br><br>
 
@@ -82,15 +84,16 @@ Quartus II 프로그램을 이용하여 로직을 설계하기 위해서는 먼�
 
 <br><br>
 
-<p align="center"> <img src="../vhdl-media/image16.png"> </p>
+<p align="center"> <img src="./../../img/Quartus_new_project_05.png"> </p>
 
 <br><br>
+
 
 다음 그림은 EDA 툴을 설정하는 창이다. 이것은 Quartus II에서 사용하는 컴파일러와시뮬레이터가 아닌 더 좋은 EDA 벤더의 소프트웨어를 사용하고자 할 때 이곳에서설정할 수 있다.
 
 <br><br>
 
-<p align="center"> <img src="../vhdl-media/image17.png"> </p>
+<p align="center"> <img src="./../../img/Quartus_new_project_06.png"> </p>
 
 <br><br>
 
@@ -98,7 +101,7 @@ Quartus II 프로그램을 이용하여 로직을 설계하기 위해서는 먼�
 
 <br><br>
 
-<p align="center"> <img src="../vhdl-media/image18.png"> </p>
+<p align="center"> <img src="./../../img/Quartus_new_project_07.png"> </p>
 
 <br><br>
 
@@ -107,7 +110,6 @@ Quartus II 프로그램을 이용하여 로직을 설계하기 위해서는 먼�
 ---
 
 <br>
-
 
 ### (2) 로직 설계
 
@@ -119,65 +121,50 @@ Quartus II 프로그램을 이용하여 로직을 설계하기 위해서는 먼�
 
 <br><br>
 
-<p align="center"> <img src="../vhdl-media/image19.png"> </p>
+<p align="center"> <img src="./../../img/Quartus_new_project_08.png"> </p>
 
 <br><br>
 
-나타나는 New 창에서 아래 그림과 같이 VHDL File을 선택한다.
+나타나는 New 창에서 아래 그림과 같이 Verilog HDL File을 선택한다.
 
 <br><br>
 
-<p align="center"> <img src="../vhdl-media/image20.png"> </p>
+<p align="center"> <img src="./../../img/Quartus_new_project_09.png"> </p>
 
 <br><br>
 
-아래와 같이 VHDL로직을 설계하고, COUNT_8BIT.VHD라는 이름으로 저장한다. 저장하는폴더는 “E:\ WORK \ COUNT_8BIT” 이다.로직에 대한 설명은 넘기겠다. 다음 장의 CH2. 논리 회로에서 카운터 로직의 설명에비슷한 예제가 설계되어 있다.
+아래와 같이 Verilog HDL 로직을 설계하고, COUNT_8BIT.VHD라는 이름으로 저장한다.저장하는 폴더는 “E:\ WORK \ COUNT_8BIT \ RTL” 이다.로직에 대한 설명은 넘기겠다. 다음 장의 CH2. 논리 회로에서 카운터 로직의 설명에비슷한 예제가 설계되어 있다.
 
-```vhdl
---COUNT_8BIT.VHD
+```verilog
+//COUNT_8BIT.V
 
-LIBRARY IEEE;
-USE IEEE.STD_LOGIC_1164.ALL;
-USE IEEE.STD_LOGIC_UNSIGNED.ALL;
-
-ENTITY COUNT_8BIT IS
-PORT (
-  RESETN : IN STD_LOGIC;  -- RESET
-  CLK : IN STD_LOGIC;      -- CLOCK BUTTON
-
-  COUNT_OUT : OUT STD_LOGIC_VECTOR(7 DOWNTO 0)  -- LED OUTPUT
+module COUNT_8BIT(
+  RESETN, CLK,
+  COUNT_OUT
 );
-END COUNT_8BIT;
 
-ARCHITECTURE HB OF COUNT_8BIT IS
+input RESETN;
+input CLK;
+output [7:0] COUNT_OUT;
 
-SIGNAL CNT_8BIT : STD_LOGIC_VECTOR(7 DOWNTO 0);
+reg [7:0] COUNT_OUT;
 
-BEGIN
+always @(posedge CLK)
+begin
+  if (~RESETN)
+    COUNT_OUT <= 8'B00000000;
+  else
+    COUNT_OUT <= COUNT_OUT + 1;
+  end
 
-PROCESS (RESETN, CLK)
-BEGIN
-  IF RESETN = '0' THEN
-    CNT_8BIT <= (OTHERS => '0');
-  ELSIF CLK'EVENT AND CLK = '1' THEN
-    IF CNT_8BIT = "11111111" THEN
-      CNT_8BIT <= (OTHERS => '0');
-    ELSE
-      CNT_8BIT <= CNT_8BIT + 1;
-    END IF;
-  END IF;
-END PROCESS;
-
-COUNT_OUT <= CNT_8BIT;
-
-END HB;
+endmodule
 ```
 
-위의 설계된 로직 파일을 저장하면 자동으로 프로젝트에 파일이 추가된다. 아래 그림과같이 Quartus II 프로그램의 Project > Add/Remove Files in Project 메뉴을 선택하여프로젝트에 COUNT_8BIT.VHD 파일이 추가되었는지를 확인한다.
+위의 설계된 로직 파일을 저장하면 자동으로 프로젝트에 파일이 추가된다. 아래 그림과같이 Quartus II 프로그램의 Project > Add/Remove Files in Project 메뉴을 선택하여프로젝트에 COUNT_8BIT.V 파일이 추가되었는지를 확인한다.
 
 <br><br>
 
-<p align="center"> <img src="../vhdl-media/image21.png"> </p>
+<p align="center"> <img src="./../../img/Quartus_new_project_10.png"> </p>
 
 <br><br>
 
@@ -185,7 +172,7 @@ END HB;
 
 <br><br>
 
-<p align="center"> <img src="../vhdl-media/image22.png"> </p>
+<p align="center"> <img src="./../../img/Quartus_new_project_11.png"> </p>
 
 <br><br>
 
@@ -197,13 +184,13 @@ Assignment는 프로젝트의 타겟이 되는 FPGA 디바이스와 설계된 �
 
 <br><br>
 
-<p align="center"> <img src="../vhdl-media/image23.png"> </p>
+<p align="center"> <img src="./../../img/Quartus_new_project_12.png"> </p>
 
 <br><br>
 
 <br><br>
 
-<p align="center"> <img src="../vhdl-media/image24.png"> </p>
+<p align="center"> <img src="./../../img/Quartus_new_project_13.png"> </p>
 
 <br><br>
 
@@ -211,7 +198,7 @@ Assignment는 프로젝트의 타겟이 되는 FPGA 디바이스와 설계된 �
 
 <br><br>
 
-<p align="center"> <img src="../vhdl-media/image25.png"> </p>
+<p align="center"> <img src="./../../img/Quartus_new_project_14.png"> </p>
 
 <br><br>
 
@@ -229,11 +216,43 @@ Assignment는 프로젝트의 타겟이 되는 FPGA 디바이스와 설계된 �
 
 <br><br>
 
-<p align="center"> <img src="../vhdl-media/image26.png"> </p>
+<p align="center"> <img src="./../../img/Quartus_new_project_15.png"> </p>
 
 <br><br>
 
-### (4) Compile
+### (4) Unused Pin Setting
+
+현재 장비에서는 FPGA Module 및 Process 모듈이 장착되어 있고 이 모듈들 간의 AMBA bus를 통해 연결 되어 있다. 따라서 FPGA 설계 시 이러한 AMBA bus에 대한 핀 정의를 해 주어야 한다. 만약 FPGA 설계 시 이러한 핀을 사용하고 있으면 상관이 없지만 사용하지 않을 시FPGA 툴에서는 핀을 사용하지 않은 핀을 GND로 동작을 하게 한다. 이러한 기능으로 인해FPGA에 의해 Processor의 AMBA BUS에 해당되는 핀이 강제적으로 GND로 동작하게 된다.따라서 툴 설계 시 사용하지 않는 핀에 대한 정의를 꼭 해 주셔야 한다.
+
+만약 다음에 나오는 핀 설정 작업이 없으면 FPGA 라인에 의한 Processor 모듈의 메인 디바이스가 손상을 입을 수 있기 때문에 이러한 작업을 꼭 해 주기 바란다.
+
+먼저 메뉴의 Assignments -> Settings를 선택하여 프로젝트 설정 창을 활성화 한다.
+
+<br><br>
+
+<p align="center"> <img src="./../../img/Quartus_new_project_16.png"> </p>
+
+<br><br>
+
+Setting 창에서 왼쪽 Category에서 Device를 선택하면 오른 쪽 설정 그림이 바뀌게 된다. 이디바이스 설정 부분에서 ‘Device and Pin Options’ 버튼을 클릭하여 다음 단계로 진행한다.
+
+<br><br>
+
+<p align="center"> <img src="./../../img/Quartus_new_project_17.png"> </p>
+
+<br><br>
+
+버튼에 의해 생성되는 Device and Pin Options 창에서 위의 메뉴를 ‘Unused Pins’로 선택하고,활성화 되는 옵션에서 Reserve all unused pins를 ‘As input tri-stated’를 선택해 준다.
+
+<br><br>
+
+<p align="center"> <img src="./../../img/Quartus_new_project_18.png"> </p>
+
+<br><br>
+
+이상의 설정을 마치고 확인을 눌러 설정을 마치고 다시 컴파일 작업을 수행해 주어야 현재설정한 부분에 대해 프로젝트에 적용할 수 있다. 이상으로 Altera Quartus II에 대한 핀 설정작업을 하였다.
+
+### (5) Compile
 
 컴파일은 설계된 로직을 합성하여 FPGA에서 사용할 수 있도록 네트 리스트로 변경하는 과정을 수행하는 것이다. 이 때, 앞에서 설정한 디바이스와 핀 설정을 바탕으로 실제 타겟이 되는디바이스에 맞는 Place & Route 과정이 이루어 지며, 최종 목적인 프로그래밍 파일이 생성된다.
 
@@ -241,13 +260,13 @@ Assignment는 프로젝트의 타겟이 되는 FPGA 디바이스와 설계된 �
 
 <br><br>
 
-<p align="center"> <img src="../vhdl-media/image27.png"> </p>
+<p align="center"> <img src="./../../img/Quartus_new_project_19.png"> </p>
 
 <br><br>
 
 <br><br>
 
-<p align="center"> <img src="../vhdl-media/image28.jpeg"> </p>
+<p align="center"> <img src="./../../img/Quartus_new_project_20.png"> </p>
 
 <br><br>
 
@@ -262,54 +281,50 @@ Assignment는 프로젝트의 타겟이 되는 FPGA 디바이스와 설계된 �
 
 ## 4.3. ModelSim 소프트웨어를 이용한 시뮬레이션
 
-이 절에서는 앞에서 설계한 8비트 카운터 로직을 소프트웨어적으로 검증하기 위하여 시뮬레이션 하는 방법을 설명하고 있다. 여기에서 사용하는 시뮬레이션 소프트웨어로 유명한ModelSim이다.시뮬레이션을 할 때에는 출력된 결과를 확인해 볼 수 있도록, 입력 신호의 데이터를 설정해주어야 하는데, 많이 사용하는 방법이 테스트 벤치 파일을 작성하여 시뮬레이션 하는 것이다.아래에 설계되어 있는 VHDL 파일이 이 8 비트 카운터를 시뮬레이션 하기 위한 테스트 벤치파일이다.
+이 절에서는 앞에서 설계한 8비트 카운터 로직을 소프트웨어적으로 검증하기 위하여 시뮬레이션 하는 방법을 설명하고 있다. 여기에서 사용하는 시뮬레이션 소프트웨어로 유명한ModelSim이다.시뮬레이션을 할 때에는 출력된 결과를 확인해 볼 수 있도록, 입력 신호의 데이터를 설정해주어야 하는데, 많이 사용하는 방법이 테스트 벤치 파일을 작성하여 시뮬레이션 하는 것이다.아래에 설계되어 있는 Verilog HDL 파일이 이 8 비트 카운터를 시뮬레이션 하기 위한 테스트벤치 파일이다.
 
-```vhdl
---TB_COUNT_8BIT.VHD
+```verilog
+//COUNT_8BIT_TB.V
 
-LIBRARY IEEE;
-USE IEEE.STD_LOGIC_1164.ALL;
-USE IEEE.STD_LOGIC_UNSIGNED.ALL;
+`timescale 1ns / 1ps
 
-ENTITY TB_COUNT_8BIT IS
-END TB_COUNT_8BIT;
+module COUNT_8BIT_TB;
 
-ARCHITECTURE HB OF TB_COUNT_8BIT IS
+// input
+reg RESETN, CLK;
 
-COMPONENT COUNT_8BIT
-PORT (
-  RESETN : IN STD_LOGIC;
-  CLK : IN STD_LOGIC;
+// output
+wire [7:0] COUNT_OUT;
 
-  COUNT_OUT : OUT STD_LOGIC_VECTOR(7 DOWNTO 0)
-);
-END COMPONENT;
-
-SIGNAL RESETN : STD_LOGIC := '0';
-SIGNAL CLK : STD_LOGIC := '0';
-SIGNAL COUNT_OUT : STD_LOGIC_VECTOR(7 DOWNTO 0) := "00000000";
-
-BEGIN
-
-PROCESS
-BEGIN
-  WAIT FOR 10 NS;
-CLK  <= NOT CLK;
-END PROCESS;
-
-RESETN <= '0', '1' AFTER 15NS, '0' AFTER 500NS, '1' AFTER 550NS;
-
-U_COUNT_8BIT : COUNT_8BIT
-PORT MAP (
-  RESETN => RESETN,
-  CLK => CLK,
-  COUNT_OUT => COUNT_OUT
+// Instantiate the U1
+COUNT_8BIT U1(
+  RESETN,
+  CLK,
+  COUNT_OUT
 );
 
-END HB;
+// Specify input stimulus
+
+initial begin
+  CLK = 0;
+
+  RESETN = 0;
+
+  #100 RESETN = 1;
+end
+
+// clock generation
+always begin
+  CLK = 0;
+  #25;
+  CLK = 1;
+  #25;
+end
+
+endmodule
 ```
 
-위의 테스트 벤치 파일을 TB_COUNT_8BIT.VHD라는 이름으로 작업 폴더에 저장한다.
+위의 테스트 벤치 파일을 COUNT_8BIT_TB.V라는 이름으로 RTL 작업 폴더에 저장한다.
 
 ModelSim 소프트웨어를 이용하여 시뮬레이션 하는 방법에 대하여 아래에 설명되어 있다.
 
@@ -319,7 +334,7 @@ ModelSim 소프트웨어를 실행시킨다.
 
 <br><br>
 
-<p align="center"> <img src="../vhdl-media/image29.png"> </p>
+<p align="center"> <img src="./../../img/ModelSim_new_project_21.png"> </p>
 
 <br><br>
 
@@ -327,7 +342,7 @@ ModelSim 소프트웨어에서 시뮬레이션을 하기 위해서, 아래 그�
 
 <br><br>
 
-<p align="center"> <img src="../vhdl-media/image30.png"> </p>
+<p align="center"> <img src="./../../img/ModelSim_new_project_22.png"> </p>
 
 <br><br>
 
@@ -335,28 +350,33 @@ Create Project 창에서 아래 그림과 같이 Project Name과 작업 폴더�
 
 <br><br>
 
-<p align="center"> <img src="../vhdl-media/image31.png"> </p>
+<p align="center"> <img src="./../../img/ModelSim_new_project_23.png"> </p>
 
 <br><br>
 
-Add items to the Project 창에서 아래 그림과 같이 프로젝트에 포함할 로직 파일(COUNT_8BIT.VHD)과 테스트 벤치 파일(TB_COUNT_8BIT.VHD)을 추가시킨다.
-
-
-<br><br>
-
-<p align="center"> <img src="../vhdl-media/image32.png"> </p>
+Add items to the Project 창에서 아래 그림과 같이 프로젝트에 포함할 로직 파일(COUNT_8BIT.V)과 테스트 벤치 파일(COUNT_8BIT_TB.V)을 추가시킨다.
 
 <br><br>
 
-<br><br>
-
-<p align="center"> <img src="../vhdl-media/image33.png"> </p>
+<p align="center"> <img src="./../../img/ModelSim_new_project_24.png"> </p>
 
 <br><br>
 
 <br><br>
 
-<p align="center"> <img src="../vhdl-media/image34.png"> </p>
+<p align="center"> <img src="./../../img/ModelSim_new_project_25.png"> </p>
+
+<br><br>
+
+<br><br>
+
+<p align="center"> <img src="./../../img/ModelSim_new_project_26.png"> </p>
+
+<br><br>
+
+<br><br>
+
+<p align="center"> <img src="./../../img/ModelSim_new_project_27.png"> </p>
 
 <br><br>
 
@@ -364,7 +384,7 @@ Add items to the Project 창에서 아래 그림과 같이 프로젝트에 포�
 
 <br><br>
 
-<p align="center"> <img src="../vhdl-media/image35.png"> </p>
+<p align="center"> <img src="./../../img/ModelSim_new_project_28.png"> </p>
 
 <br><br>
 
@@ -372,7 +392,7 @@ Add items to the Project 창에서 아래 그림과 같이 프로젝트에 포�
 
 <br><br>
 
-<p align="center"> <img src="../vhdl-media/image36.png"> </p>
+<p align="center"> <img src="./../../img/ModelSim_new_project_29.png"> </p>
 
 <br><br>
 
@@ -380,7 +400,7 @@ Add items to the Project 창에서 아래 그림과 같이 프로젝트에 포�
 
 <br><br>
 
-<p align="center"> <img src="../vhdl-media/image37.png"> </p>
+<p align="center"> <img src="./../../img/ModelSim_new_project_30.png"> </p>
 
 <br><br>
 
@@ -388,21 +408,21 @@ Add items to the Project 창에서 아래 그림과 같이 프로젝트에 포�
 
 <br><br>
 
-<p align="center"> <img src="../vhdl-media/image38.png"> </p>
+<p align="center"> <img src="./../../img/ModelSim_new_project_31.png"> </p>
 
 <br><br>
 
-위의 메뉴를 선택하면 Start Simulation 창이 나타나는데, 여기에서 아래 그림과 같이시뮬레이션 하려고 하는 파일을 선택하면 된다.Design 탭의 Work – tb_count_8bit를 선택하고, OK 버튼을 누른다.
+위의 메뉴를 선택하면 Start Simulation 창이 나타나는데, 여기에서 아래 그림과 같이시뮬레이션 하려고 하는 파일을 선택하면 된다.Design 탭의 Work > COUNT_8BIT_TB를 선택하고, OK 버튼을 누른다.
 
 <br><br>
 
-<p align="center"> <img src="../vhdl-media/image39.png"> </p>
+<p align="center"> <img src="./../../img/ModelSim_new_project_32.png"> </p>
 
 <br><br>
 
 <br><br>
 
-<p align="center"> <img src="../vhdl-media/image40.png"> </p>
+<p align="center"> <img src="./../../img/ModelSim_new_project_33.png"> </p>
 
 <br><br>
 
@@ -410,33 +430,34 @@ Add items to the Project 창에서 아래 그림과 같이 프로젝트에 포�
 
 <br><br>
 
-<p align="center"> <img src="../vhdl-media/image41.png"> </p>
+<p align="center"> <img src="./../../img/ModelSim_new_project_34.png"> </p>
 
 <br><br>
 
-아래 그림과 같이 Workspace의 sim 탭에서 tb_count_8bit를 마우스로 드래그하여 Wave창에 위치시킨다.
+아래 그림과 같이 Workspace의 sim 탭에서 COUNT_8BIT_TB를 마우스로 드래그하여Wave 창에 위치시킨다.
 
 <br><br>
 
-<p align="center"> <img src="../vhdl-media/image42.png"> </p>
+<p align="center"> <img src="./../../img/ModelSim_new_project_35.png"> </p>
 
 <br><br>
 
-마우스로 Drag & Drop하여 tb_count_8bit를 끌어오면, 아래 그림과 같이 입/출력 신호가나타나는 것을 확인할 수 있다.
+마우스로 Drag & Drop하여 COUNT_8BIT_TB를 끌어오면, 아래 그림과 같이 입/출력신호가 나타나는 것을 확인할 수 있다.
 
 <br><br>
 
-<p align="center"> <img src="../vhdl-media/image43.png"> </p>
+<p align="center"> <img src="./../../img/ModelSim_new_project_36.png"> </p>
 
 <br><br>
 
-시뮬레이션 하는 입력 신호의 값은 테스트 벤치 파일(TB_COUNT_8BIT)에서 설정했기때문에, 아래 그림과 같이 Transcript 탭에서 선택하여 직접 “run 1us”를 type한다.(소문자로 입력해야 한다)이 명령어는 1us만큼 시뮬레이션 하라는 명령어이다. 실행 시키면 아래 그림과 같이wave 창에서 시뮬레이션의 결과를 확인해 볼 수 있다.처음에 나타나는 파형이 너무 커서 잘 안 보이는 경우가 있는데, 파형의 축소를 통해결과를 확인해야 한다.
+시뮬레이션 하는 입력 신호의 값은 테스트 벤치 파일(COUNT_8BIT_TB)에서 설정했기때문에, 아래 그림과 같이 Transcript 탭에서 선택하여 직접 “run 1us”를 type한다.(소문자로 입력해야 한다)이 명령어는 1us만큼 시뮬레이션 하라는 명령어이다. 실행 시키면 아래 그림과 같이wave 창에서 시뮬레이션의 결과를 확인해 볼 수 있다.처음에 나타나는 파형이 너무 커서 잘 안 보이는 경우가 있는데, 파형의 축소를 통해결과를 확인해야 한다.
 
 <br><br>
 
-<p align="center"> <img src="../vhdl-media/image44.png"> </p>
+<p align="center"> <img src="./../../img/ModelSim_new_project_37.png"> </p>
 
 <br><br>
+
 
 ## 4.4. HBE-Combo III를 이용한 동작 검증
 
@@ -444,64 +465,66 @@ Add items to the Project 창에서 아래 그림과 같이 프로젝트에 포�
 
 ### (1) 장비 설정
 
-① 아래 그림과 같이 장비에 Power Cable을 연결한다.
+아래 그림과 같이 장비에 Power Cable을 연결한다.
 
 <br><br>
 
-<p align="center"> <img src="../vhdl-media/image45.png"> </p>
+<p align="center"> <img src="./../../img/ModelSim_new_project_38.png"> </p>
 
 <br><br>
 
-② 아래 그림과 같이 장비의 JTAG Port에 ByteBlaster II Cable 또는 USB Blaster II Cable을 연결한다.
+
+아래 그림과 같이 장비의 JTAG Port에 ByteBlaster II Cable 또는 USB Blaster II Cable을 연결한다.
 
 <br><br>
 
-<p align="center"> <img src="../vhdl-media/image46.png"> </p>
+<p align="center"> <img src="./../../img/ModelSim_new_project_39.png"> </p>
 
 <br><br>
 
-③ 전원 선 옆의 스위치를 조작하여, 장비의 전원을 켠다.
+전원 선 옆의 스위치를 조작하여, 장비의 전원을 켠다.
 
 <br><br>
 
-<p align="center"> <img src="../vhdl-media/image47.png"> </p>
+<p align="center"> <img src="./../../img/ModelSim_new_project_40.png"> </p>
 
 <br><br>
-
 
 ### (2) 프로그래밍 및 동작 확인
 
 위와 같이 장비에 대한 준비를 끝마쳤다면, Quartus II에서 프로그래밍하여 동작을 확인해 보는 일만 남았다.
 
-① Quartus II 소프트웨어에서 아래 그림과 같이 Tools > Programmer 메뉴를 선택하여Quartus II의 Programmer를 실행시킨다.
+Quartus II 소프트웨어에서 아래 그림과 같이 Tools > Programmer 메뉴를 선택하여Quartus II의 Programmer를 실행시킨다.
 
 <br><br>
 
-<p align="center"> <img src="../vhdl-media/image48.png"> </p>
+<p align="center"> <img src="./../../img/ModelSim_new_project_41.png"> </p>
 
 <br><br>
 
-② 아래 그림과 같이 Hardware Setup 버튼을 클릭하여 FPGA에 프로그램 하는데 사용할 프로그래밍 케이블을 선택한다. 아무런 장치도 나타나지 않으면, Hardware Setup 창에서Add Hardware를 선택한다. 프로그래밍 케이블은 USB Port를 사용하는 USB Blaster와Parallel Port를 사용하는 ByteBlaster II를 선택하여 사용할 수 있다.
+아래 그림과 같이 Hardware Setup 버튼을 클릭하여 FPGA에 프로그램 하는데 사용할 프로그래밍 케이블을 선택한다. 아무런 장치도 나타나지 않으면, Hardware Setup 창에서Add Hardware를 선택한다. 프로그래밍 케이블은 USB Port를 사용하는 USB Blaster와Parallel Port를 사용하는 ByteBlaster II를 선택하여 사용할 수 있다.
 
 <br><br>
 
-<p align="center"> <img src="../vhdl-media/image49.png"> </p>
+<p align="center"> <img src="./../../img/ModelSim_new_project_42.png"> </p>
 
 <br><br>
 
 <br><br>
 
-<p align="center"> <img src="../vhdl-media/image50.png"> </p>
+<p align="center"> <img src="./../../img/ModelSim_new_project_43.png"> </p>
 
 <br><br>
 
-③ 아래 그림과 같이 Programmer의 Start 버튼을 눌러 FPGA 디바이스로의 프로그래밍을진행한다.이 부분에서 Hardware Setup이 잘 설정되었는지, Mode가 JTAG으로 설정되었는지,Program/Configure이 체크 되었는지를 확인해야 한다.
+아래 그림과 같이 Programmer의 Start 버튼을 눌러 FPGA 디바이스로의 프로그래밍을진행한다.이 부분에서 Hardware Setup이 잘 설정되었는지, Mode가 JTAG으로 설정되었는지,Program/Configure이 체크 되었는지를 확인해야 한다.
 
 <br><br>
 
-<p align="center"> <img src="../vhdl-media/image51.png"> </p>
+<p align="center"> <img src="./../../img/ModelSim_new_project_44.pngg"> </p>
 
 <br><br>
 
-④ 프로그래밍이 끝나면 장비를 통해서 동작을 확인해 볼 수 있다.버튼 스위치를 눌러서 8비트 카운터의 동작을 확인해 보기 바란다.
+프로그래밍이 끝나면 장비를 통해서 동작을 확인해 볼 수 있다.
+버튼 스위치를 눌러서 8비트 카운터의 동작을 확인해 보기 바란다.
+
 

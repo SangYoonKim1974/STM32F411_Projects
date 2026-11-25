@@ -87,4 +87,5 @@
 - [2. C vs Verilog HDL vs VHDL Comparison](./docs/F411_C_Verilog_HDL_VHDL.md)
 
 ## 4. HBE_Combo3_VHDL_ALTERA
-- [1. HBE_Combo_III](./HBE_Combo3_VHDL_ALTERA/README.md)
+- [1. HBE_Combo_VHDL_III](./HBE_Combo3_VHDL_ALTERA/README.md)
+- [1. HBE_Combo_Verilog_HDL_III](./HBE_Combo3_Verilog_HDL_ALTERA/README.md)

@@ -6,7 +6,7 @@
 
 | HBE-COMBO III | HBE-COMBO III |
 |----|------|
-|  ![](./img/HBE_equipments_01.png)  | ![](./img/HBE_equipment_image8.jpeg) |
+|  ![](./../img/HBE_equipments_01.png)  | ![](./../img/HBE_equipment_image8.jpeg) |
 
 </p>
 

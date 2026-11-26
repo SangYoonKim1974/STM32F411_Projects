@@ -89,3 +89,16 @@
 ## 4. HBE_Combo3_VHDL_ALTERA
 - [1. HBE_Combo_VHDL_III](./HBE_Combo3_VHDL_ALTERA/README.md)
 - [1. HBE_Combo_Verilog_HDL_III](./HBE_Combo3_Verilog_HDL_ALTERA/README.md)
+
+| 포트 이름 | 핀 번호 | 하드웨어 설명 | 포트 이름 | 핀 번호 | 하드웨어 설명 |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| I[7] | V7 |  | S[2] | Y2 |  |
+| I[6] | W1 |  | S[1] | Y3 |  |
+| I[5] | W2 |  | S[0] | Y4 |  |
+| I[4] | W3 |  |  |  |  |
+| I[3] | W4 |  |  |  |  |
+| I[2] | V2 |  |  |  |  |
+| I[1] | V3 |  |  |  |  |
+| I[0] | V4 |  |  |  |  |
+| CLK | N25 |  |  |  |  |
+| Z | AE11 |  |  |  |  |

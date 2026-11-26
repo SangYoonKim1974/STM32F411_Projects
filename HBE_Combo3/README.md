@@ -35,14 +35,14 @@
 
 ## ALTERA FPGA
 
-![](img/ALTERA_FPGA.png)
+![](./../img/ALTERA_FPGA.png)
 
 <br><br><br>
 ---
 
 ## XILINX FPGA
 
-![](img/XILINX_FPGA.png)
+![](./../img/XILINX_FPGA.png)
 
 ## 원본
 

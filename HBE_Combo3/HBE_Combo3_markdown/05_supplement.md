@@ -25,7 +25,7 @@
 * 먼저 메뉴의 Assignments -> Settings를 선택하여 프로젝트 설정 창을 활성화합니다.
 
 <p align="center">
-  <img src="../img/image265.png">
+  <img src="./../img/QuartusII_settings_image265.png">
 </p>
 
 > **그림 5-1** · Assignments -> Settings
